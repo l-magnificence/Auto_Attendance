@@ -39,4 +39,4 @@ jobs:
         run: |
           python3 auto.py --username=$lhw_username --password=$lhw_password
           python3 auto.py --username=$xk_username --password=$xk_password
-          python3 auto.py --username=$cjj_username --password=$cjj_password
+          python3 auto.py --username=$cjj_username --password=$cjj_password 
