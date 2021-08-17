@@ -34,7 +34,9 @@ jobs:
           lhw_password: ${{ secrets.LHW_PASSWORD }}
           xk_username: ${{ secrets.XK_USERNAME }}
           xk_password: ${{ secrets.XK_PASSWORD }}
+          cjj_username: ${{ secrets.CJJ_USERNAME }}
+          cjj_password: ${{ secrets.CJJ_PASSWORD }}
         run: |
           python3 auto.py --username=$lhw_username --password=$lhw_password
           python3 auto.py --username=$xk_username --password=$xk_password
-
+          python3 auto.py --username=$cjj_username --password=$cjj_password
